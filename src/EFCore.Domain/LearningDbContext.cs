@@ -11,6 +11,7 @@ public class LearningDbContext(DbContextOptions<LearningDbContext> options) : Db
     public DbSet<CourseEntity> Courses { get; set; } = default!;
     public DbSet<AuthorEntity> Authors { get; set; } = default!;
     public DbSet<StudentEntity> Stidents { get; set; } = default!;
+    //
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
