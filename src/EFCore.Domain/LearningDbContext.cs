@@ -12,6 +12,7 @@ public class LearningDbContext(DbContextOptions<LearningDbContext> options) : Db
     public DbSet<AuthorEntity> Authors { get; set; } = default!;
     public DbSet<StudentEntity> Stidents { get; set; } = default!;
     //
+    //sdasdas
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
